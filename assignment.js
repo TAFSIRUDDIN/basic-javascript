@@ -48,7 +48,7 @@ function budgetCalculator(clock, phone, laptop){
          return totalPrice;
    }
 }
-// All output
+// All expected output
 var firstManBudgetRange = budgetCalculator(20, 10, 2);
 console.log(firstManBudgetRange);
 var secondManBudgetRange = budgetCalculator(20, -10, 2);
