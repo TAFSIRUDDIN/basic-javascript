@@ -1,4 +1,7 @@
 // https://github.com/TAFSIRUDDIN/basic-javascript
+
+
+
 // Kilometer to meter problen solving
 function kilometerToMeter(kilometer) {
    if(kilometer < 0){
@@ -22,6 +25,8 @@ console.log(secondMan);
 // Ask third Man
 var thirdMan = kilometerToMeter(0);
 console.log(thirdMan);
+
+//All expected output
 
 
 
@@ -63,6 +68,8 @@ console.log(thirdManBudgetRange);
 // Ask fourth man
 var fourthManBudgetRange = budgetCalculator(0, 0, 0);
 console.log(fourthManBudgetRange);
+
+//All expected output
 
 
 
@@ -117,3 +124,37 @@ console.log(fifthMan);
 //Sixth man
 var sixthMan = hotelCost(71);
 console.log(sixthMan);
+
+//All expected output
+
+
+
+
+
+
+//megafriend problem solving
+
+function megaFriend(arr){
+   var large = arr[0];
+   if(arr.length == 0){
+      large = 'There is no name in your friend list. (Thank you)'
+   }
+   else{
+      for(var i = 0; i < arr.length; i++){
+         var element = arr[i];
+         if(element.length > large.length){
+             large = element;
+         }
+      }
+   }
+return large;
+}
+
+
+//All expected output
+//1st man
+var big = megaFriend([]);
+console.log(big);
+//nd man
+var big = megaFriend(["hablu", "babluu", "ejjuyyy", "plmiis", "tafsiruddin", "borkottt", "znnnnfqknaz", "qqquuhii", "youroy"]);
+console.log(big);
