@@ -55,6 +55,8 @@ function budgetCalculator(clock, phone, laptop){
    }
    return totalPrice;
 }
+
+
 // All expected output
 //// Ask first man
 var firstManBudgetRange = budgetCalculator(20, 10, 2);
@@ -105,6 +107,8 @@ function hotelCost(day){
    }
    return totalCost;
 }
+
+
 //All expected output
 //First man
 var firstMan = hotelCost(-10);
